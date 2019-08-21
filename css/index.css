@@ -1,0 +1,65 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0.4em 0.4em 10px 3px #f0f0f0;
+}
+
+#wrapper {
+    margin: auto;
+    width: 936px;
+}
+
+.logo_class {
+    display: inline;
+}
+
+.logo {
+    padding: 15px 100px 35px 70px;
+    /* background: rgb(81, 81, 189); */
+}
+
+.profile {
+    height: 200px;
+    width: 626px;
+    float: right;
+    font-family: MyriadProRegular;
+    font-size: 35px;
+    /* background: goldenrod; */
+}
+
+span {
+    font-family: HelveticaRegular;
+    color: #4090db;
+    font-size: 15pt;
+    border-style: solid;
+    margin-left: 15px;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.content {
+    width: 936px;
+    margin: auto;
+    margin-top: 70px;
+    height: 1146px;
+    background: forestgreen;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+main>img {
+    height: 292;
+    width: 292;
+}
