@@ -19,7 +19,6 @@ header {
 
 .logo {
     padding: 15px 100px 35px 70px;
-    /* background: rgb(81, 81, 189); */
 }
 
 .profile {
@@ -28,7 +27,6 @@ header {
     float: right;
     font-family: MyriadProRegular;
     font-size: 35px;
-    /* background: goldenrod; */
 }
 
 .start_date {
@@ -65,8 +63,7 @@ li {
     width: 936px;
     margin: auto;
     margin-top: 70px;
-    height: 1146px;
-    /* background: forestgreen; */
+    height: auto;
 }
 
 main {
@@ -77,9 +74,59 @@ main {
     row-gap: 30px;
 }
 
-main>img {
-    height: 292;
-    width: 292;
+.layer1, #layer2, #layer3, #layer4, #layer5, #layer6 {
+    position: relative;
+}
+
+.layer1 {
+    height: 292px;
+    width: 292px;
+    font-family: Proxima-Nova-Semibold;
+}
+
+#layer2 {
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 292px;
+    width: 292px;
+    top: -297px;
+}
+
+.layer1 {
+    z-index: 1;
+}
+
+#layer2 {
+    z-index: 2;
+}
+
+#layer3 {
+    z-index: 3;
+    color: #ffffff;
+    bottom: -260px;
+    text-align: center;
+}
+
+#layer4 {
+    z-index: 4;
+    color: #ffffff;
+    text-align: left;
+    bottom: -140px;
+    padding-left: 25px;
+}
+
+#layer5 {
+    z-index: 4;
+    color: #ffffff;
+    text-align: center;
+    bottom: -65px;
+}
+
+#layer6 {
+    z-index: 4;
+    color: #ffffff;
+    text-align: right;
+    bottom: 10px;
+    right: 40px;
 }
 
 .button {
