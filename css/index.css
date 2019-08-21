@@ -31,7 +31,7 @@ header {
     /* background: goldenrod; */
 }
 
-span {
+.start_date {
     font-family: HelveticaRegular;
     color: #4090db;
     font-size: 15pt;
@@ -42,13 +42,31 @@ span {
     border-radius: 5px;
 }
 
+.statistic {
+    font-family: Proxima-Nova-Regular;
+    font-size: 17pt;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* .figures {
+    font-family: Proxima-Nova-Bold;
+    font-size: 17pt;
+}  */
 
 .content {
     width: 936px;
     margin: auto;
     margin-top: 70px;
     height: 1146px;
-    background: forestgreen;
+    /* background: forestgreen; */
 }
 
 main {
@@ -62,4 +80,21 @@ main {
 main>img {
     height: 292;
     width: 292;
+}
+
+.button {
+    margin-top: 70px;
+    text-align: center;
+    font-family: Proxima-Nova-Regular;
+    font-size: 12pt;
+}
+
+.button>a {
+    text-decoration: none;
+    color: #000;
+    border-style: solid;
+    margin-left: 15px;
+    border-width: 1px;
+    padding: 10px 30px;
+    border-radius: 20px;
 }
